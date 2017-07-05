@@ -1,0 +1,1009 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\MohammadHomam>npm install -g @angular/cli
+C:\Users\MohammadHomam\AppData\Roaming\npm\ng -> C:\Users\MohammadHomam\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+> node-sass@4.5.3 install C:\Users\MohammadHomam\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node
+Download complete .] - :
+Binary saved to C:\Users\MohammadHomam\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Caching binary to C:\Users\MohammadHomam\AppData\Roaming\npm-cache\node-sass\4.5.3\win32-x64-57_binding.node
+
+> fsevents@1.1.2 install C:\Users\MohammadHomam\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\fsevents
+> node install
+
+
+> node-sass@4.5.3 postinstall C:\Users\MohammadHomam\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Users\MohammadHomam\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
++ @angular/cli@1.2.0
+added 854 packages in 79.101s
+
+C:\Users\MohammadHomam>cd C:\Users\MohammadHomam\Desktop\Udemy\angular
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular>ng new my-first-app
+installing ng
+  create .editorconfig
+  create README.md
+  create src\app\app.component.css
+  create src\app\app.component.html
+  create src\app\app.component.spec.ts
+  create src\app\app.component.ts
+  create src\app\app.module.ts
+  create src\assets\.gitkeep
+  create src\environments\environment.prod.ts
+  create src\environments\environment.ts
+  create src\favicon.ico
+  create src\index.html
+  create src\main.ts
+  create src\polyfills.ts
+  create src\styles.css
+  create src\test.ts
+  create src\tsconfig.app.json
+  create src\tsconfig.spec.json
+  create src\typings.d.ts
+  create .angular-cli.json
+  create e2e\app.e2e-spec.ts
+  create e2e\app.po.ts
+  create e2e\tsconfig.e2e.json
+  create .gitignore
+  create karma.conf.js
+  create package.json
+  create protractor.conf.js
+  create tsconfig.json
+  create tslint.json
+Installing packages for tooling via npm.
+Installed packages for tooling via npm.
+Successfully initialized git.
+Project 'my-first-app' successfully created.
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular>
+C:\Users\MohammadHomam\Desktop\Udemy\angular>cd my-first-app
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>ng serve
+** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200 **
+Hash: c6fa98ed5c5be28d4b76
+Time: 12411ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial] [rendered]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 5.34 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 10.5 kB {4} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.18 MB [initial] [rendered]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [rendered]
+webpack: Compiled successfully.
+^CTerminate batch job (Y/N)? n
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>ng serve
+** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200 **
+Hash: c6fa98ed5c5be28d4b76
+Time: 8255ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial] [rendered]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 5.34 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 10.5 kB {4} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.18 MB [initial] [rendered]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [rendered]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: fd31af607fcc53e93018
+Time: 5742ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 5.49 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 10.5 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial] [rendered]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 895a1f8d2e0b7e4e2225
+Time: 296ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 5.55 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 10.5 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: a8039762ec762174c17f
+Time: 425ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 10.5 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>npm i bootstrap --save
++ bootstrap@3.3.7
+added 1 package in 5.319s
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>ng serve
+** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200 **
+Hash: 566a0fab197b19eb72fc
+Time: 9278ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial] [rendered]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial] [rendered]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial] [rendered]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [rendered]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 269ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 153ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 262ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 210ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 133ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 448ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 514ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 172ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 237ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 566a0fab197b19eb72fc
+Time: 172ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.58 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 0da5c46775d362c38c72
+Time: 379ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.61 kB {3} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 0da5c46775d362c38c72
+Time: 204ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 5.61 kB {3} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: cad01ba30ceee6dd89a5
+Time: 696ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {2} main.bundle.js, main.bundle.js.map (main) 6.74 kB {3} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>ng generate component servers
+installing component
+  create src\app\servers\servers.component.css
+  create src\app\servers\servers.component.html
+  create src\app\servers\servers.component.spec.ts
+  create src\app\servers\servers.component.ts
+  update src\app\app.module.ts
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>ng serve
+** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200 **
+Hash: ec3eb0fdeb6b30635a95
+Time: 9967ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial] [rendered]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.51 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial] [rendered]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [rendered]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: ec3eb0fdeb6b30635a95
+Time: 384ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.51 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 2f99eedc4d0fde7a6f68
+Time: 354ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.54 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 9fc569ce805f8873f7b2
+Time: 386ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.67 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: b2b023cbd86fdbc8c8ca
+Time: 308ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.67 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 4a3c699fa1fc69391917
+Time: 198ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.69 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: c7bf98c61739b79d1451
+Time: 173ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.46 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (7,3): Argument of type '{ selector: string; templateUrl: string; style: string[]; }' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'style' does not exist in type 'Component'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (7,3): Argument of type '{ selector: string; templateUrl: string; style: string[]; }' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'style' does not exist in type 'Component'.
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: 70687876cfbde65e9775
+Time: 213ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.46 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 3f40423c9c319f6cec75
+Time: 213ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.76 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 084c93cc4ea95762eebc
+Time: 205ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.78 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 1cb572a5da6b25aa99db
+Time: 480ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.85 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 36bc0509285f9ce56ba6
+Time: 254ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.92 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 36bc0509285f9ce56ba6
+Time: 247ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 8.92 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 3407f9b7dec7ee9a6290
+Time: 217ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.03 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 37a81e179475955e0560
+Time: 224ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.05 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 4dbbb4d14c7d1849a177
+Time: 251ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.11 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 1e572d4d5532ac7fecdf
+Time: 462ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.27 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 1e572d4d5532ac7fecdf
+Time: 200ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.27 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 66651a966d0717e0d121
+Time: 358ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.3 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 0ddf5f942ed4c98b7da6
+Time: 242ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.3 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 1a973a15ac6f366ed812
+Time: 337ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.33 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: f74c3d003ba5417555c7
+Time: 308ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.36 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 5a107775bfc56e925377
+Time: 251ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.37 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 6f6087cec40123e54aa6
+Time: 340ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.43 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 67b1c36cc5121f80196e
+Time: 168ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.5 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 4e9673a4cef463a43ab0
+Time: 221ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.57 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 8131937a750dea40bdc6
+Time: 211ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.6 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 6202dae98f5affd7eef4
+Time: 393ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.61 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 6202dae98f5affd7eef4
+Time: 298ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.61 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 712bf87799e8688beb3a
+Time: 186ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.61 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: e54fad26b6a3ae55942f
+Time: 303ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.61 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 6deb5075394f36d2a1dd
+Time: 169ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.68 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: eb02d8f2335705cc0898
+Time: 197ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.76 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 447794892de2ee79dfb3
+Time: 375ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.76 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: f403b84294f7b4364bbd
+Time: 382ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.77 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 501d92160a6f84e6cd83
+Time: 192ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.8 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 7485bb7205f3b4121e39
+Time: 399ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.8 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 230371bcc9718e00799e
+Time: 219ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.81 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 63dc72406f6b709eef47
+Time: 229ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.89 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 63dc72406f6b709eef47
+Time: 222ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.89 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: b3fe8ba67688045d59a5
+Time: 335ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 9.91 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: af46f321a7099c51b84f
+Time: 477ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: a43c529389938d5362b1
+Time: 489ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 0509c29624957120d88e
+Time: 337ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 190df7e48ec09e906b75
+Time: 458ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.1 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: f22671ce104a621536a5
+Time: 434ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.1 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: b1bbe5415554b13a81cd
+Time: 309ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.2 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 8dc0eb5278eca2de6b3b
+Time: 323ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.3 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: c2d8c26b09849d9cd2d5
+Time: 423ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.3 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: b7accf380988dcf9c249
+Time: 245ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.6 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 0d66a1ca43aca11aa732
+Time: 433ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.6 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 12d212cb0fa70fec7851
+Time: 439ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.8 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: fa17c8b08565330ac24e
+Time: 220ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.8 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: d83503897e682519add5
+Time: 237ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.9 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: d83503897e682519add5
+Time: 213ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.9 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 2436ae17017130448d95
+Time: 244ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 10.9 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 3ad9e2f34a6f26cf34ec
+Time: 247ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 11 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 08309b5af97a2c824d21
+Time: 440ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 11 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: d20a618e1a2845b4b9b6
+Time: 332ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 11 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 85a54f64db9d659e3302
+Time: 321ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 11 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 85a54f64db9d659e3302
+Time: 234ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 11 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 60cc8e72d83853c84fd0
+Time: 467ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 11 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: cefe7adf74699d031d9e
+Time: 310ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 7.88 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: cefe7adf74699d031d9e
+Time: 139ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 7.88 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: cefe7adf74699d031d9e
+Time: 290ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 7.88 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: cefe7adf74699d031d9e
+Time: 164ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 7.88 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: cefe7adf74699d031d9e
+Time: 132ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 7.88 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (11,3): Declaration expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,21): ';' expected.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (13,1): Cannot find name 'showSecret'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (14,3): Cannot find name 'log'.
+
+ERROR in C:/Users/MohammadHomam/Desktop/Udemy/angular/my-first-app/src/app/app.component.ts (16,3): Cannot find name 'onToggleDetails'.
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: 06d8266f21ce1f742645
+Time: 233ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 12.4 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 06d8266f21ce1f742645
+Time: 384ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 12.4 kB {3} [initial]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: f17081f6ffd83c3088fe
+Time: 221ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 12.5 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 62eb3a78459367b168cf
+Time: 730ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 160 kB {4} [initial]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 12.5 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 129 kB {4} [initial]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.47 MB [initial]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry]
+webpack: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+C:\Users\MohammadHomam\Desktop\Udemy\angular\my-first-app>
